@@ -38,7 +38,7 @@ Uninstall:
     
     sudo make clean
 
-Install from AUR:
+Install [`fortune-mod-samantha`](https://aur.archlinux.org/packages/fortune-mod-samantha) from the AUR:
 
     yay -S fortune-mod-samantha
 
