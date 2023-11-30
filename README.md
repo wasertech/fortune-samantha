@@ -3,7 +3,6 @@ fortune-samantha
 
 Quotes from samantha (and OS1) from the movie Her
 
-
 > “The heart’s not like a box that gets filled up; it expands in size the more you love.”
 
 > “Falling in love is a crazy thing to do. It’s kind of like a form of socially acceptable insanity.”
@@ -26,8 +25,20 @@ Quotes from samantha (and OS1) from the movie Her
 
 And many many more...
 
-to make:
-
+Build from source:
 
     python parse_subtitles.py
     strfile -c % fortunes/samantha fortunes/samantha.dat
+
+Install:
+    
+    sudo make install
+
+Uninstall:
+    
+    sudo make clean
+
+Install from AUR:
+
+    yay -S fortune-mod-samantha
+
