@@ -30,4 +30,4 @@ to make:
 
 
     python parse_subtitles.py
-    strfile -c % samantha samantha.dat
+    strfile -c % fortunes/samantha fortunes/samantha.dat

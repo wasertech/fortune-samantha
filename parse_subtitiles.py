@@ -30,7 +30,7 @@ for subtitle in subtitles:
                 ln = subtitle.index
                 le = subtitle.end.seconds
 
-with open("samantha", "w") as f:
+with open("fortunes/samantha", "w", encoding='utf-8') as f:
     f.write("\n%\n".join(quotes))
 
-print(f"Quotes have been compiled in ./samantha")
+print("Quotes have been compiled in ./fortunes/samantha")
